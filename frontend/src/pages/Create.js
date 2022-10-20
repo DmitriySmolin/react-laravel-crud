@@ -18,25 +18,7 @@ const Create = () => {
             navigate("/");
         })
     }
-
-    const form = [
-        {
-            label: "Name",
-            type: "text",
-            name: "name",
-        },
-        {
-            label: "Email",
-            type: "email",
-            name: "email",
-        },
-        {
-            label: "Password",
-            type: "password",
-            name: "password",
-        }
-
-    ]
+    
     return <div>
         <h2>New User</h2>
         <div className="row">

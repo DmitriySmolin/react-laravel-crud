@@ -21,7 +21,6 @@ const View = () => {
         });
     }
 
-
     return <div>
         <h2>View User</h2>
         <div className="row">
